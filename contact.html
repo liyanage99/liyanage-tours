@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Liyanage Tours for bookings, inquiries, or custom tour planning. Get a free quote for your Sri Lanka travel">
+    <title>Contact Us - Liyanage Tours | Book Your Sri Lanka Tour</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header/Navbar -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-container">
+                    <a href="index.html" class="logo">Liyanage Tours</a>
+                    <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+                    <ul class="nav-menu" id="navMenu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="vehicles.html">Vehicles</a></li>
+                        <li><a href="tours.html">Tours</a></li>
+                        <li><a href="drivers.html">Drivers</a></li>
+                        <li><a href="contact.html" class="active">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contact Hero Section -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Get in touch for bookings, inquiries, or custom tour planning</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <h2>Send Us a Message</h2>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="pickup">Pickup Location</label>
+                                <input type="text" id="pickup" name="pickup" placeholder="e.g., Colombo Airport">
+                            </div>
+                            <div class="form-group">
+                                <label for="destination">Destination</label>
+                                <input type="text" id="destination" name="destination" placeholder="e.g., Galle, Ella">
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="date">Travel Date</label>
+                                <input type="date" id="date" name="date">
+                            </div>
+                            <div class="form-group">
+                                <label for="passengers">Number of Passengers</label>
+                                <select id="passengers" name="passengers">
+                                    <option value="">Select...</option>
+                                    <option value="1">1 Passenger</option>
+                                    <option value="2">2 Passengers</option>
+                                    <option value="3">3 Passengers</option>
+                                    <option value="4">4 Passengers</option>
+                                    <option value="5">5 Passengers</option>
+                                    <option value="6">6 Passengers</option>
+                                    <option value="7">7 Passengers</option>
+                                    <option value="8+">8+ Passengers</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Interested In</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service...</option>
+                                <option value="airport">Airport Transfer</option>
+                                <option value="tour">Private Tour</option>
+                                <option value="wedding">Wedding Car Hire</option>
+                                <option value="group">Group Travel</option>
+                                <option value="custom">Custom Package</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Your Message *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Tell us about your travel plans or special requests..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                
+                <!-- Contact Info -->
+                <div class="contact-info-container">
+                    <h2>Get in Touch</h2>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">📞</div>
+                        <div class="info-details">
+                            <h3>Phone</h3>
+                            <p>+94 77 123 4567</p>
+                            <p class="info-note">Available 24/7 for emergencies</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">✉️</div>
+                        <div class="info-details">
+                            <h3>Email</h3>
+                            <p>info@liyanagetours.com</p>
+                            <p>bookings@liyanagetours.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <div class="info-details">
+                            <h3>Address</h3>
+                            <p>No. 123, Main Street,<br>Galle 80000,<br>Sri Lanka</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">🕐</div>
+                        <div class="info-details">
+                            <h3>Business Hours</h3>
+                            <p>Monday - Sunday: 24/7</p>
+                            <p>Customer Support: Always Open</p>
+                        </div>
+                    </div>
+                    
+                    <div class="whatsapp-contact">
+                        <a href="https://wa.me/94771234567?text=Hello%20I%20need%20a%20quote" target="_blank" class="btn btn-whatsapp">
+                            💬 Chat on WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Google Maps -->
+            <div class="map-container">
+                <h2>Find Us</h2>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126919.41102269047!2d80.1634195!3d6.0531383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae173bb6932fce3%3A0x4a35b902f8625230!2sGalle!5e0!3m2!1sen!2slk!4v1700000000000!5m2!1sen!2slk" 
+                    width="100%" 
+                    height="400" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section faq-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>How do I get a quote?</h3>
+                    <p>Fill out the contact form or send us a message on WhatsApp. We'll get back to you within 30 minutes with a detailed quote.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do you offer airport pickup?</h3>
+                    <p>Yes! We provide airport transfers from Colombo Airport (CMB) to any destination in Sri Lanka.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can I customize my tour?</h3>
+                    <p>Absolutely! All our tours are completely customizable to your preferences and schedule.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What payment methods do you accept?</h3>
+                    <p>We accept cash (USD/LKR), credit cards, and bank transfers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Liyanage Tours</h3>
+                    <p>Your trusted partner for exploring Sri Lanka with safe, reliable, and friendly transportation services.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="vehicles.html">Vehicles</a></li>
+                        <li><a href="tours.html">Tours</a></li>
+                        <li><a href="drivers.html">Drivers</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li>📞 +94 77 123 4567</li>
+                        <li>✉️ info@liyanagetours.com</li>
+                        <li>📍 Galle, Sri Lanka</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon">📘</a>
+                        <a href="#" class="social-icon">🐦</a>
+                        <a href="#" class="social-icon">📸</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Liyanage Tours & Transfers. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/94771234567?text=Hello%20I%20need%20a%20quote%20for%20my%20trip%20to%20Sri%20Lanka" target="_blank" class="whatsapp-float">
+        💬
+    </a>
+
+    <script src="js/main.js"></script>
+    <script src="js/smooth-scroll.js"></script>
+</body>
+</html>
